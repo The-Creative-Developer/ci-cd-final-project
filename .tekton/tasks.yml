@@ -3,6 +3,7 @@ kind: Task
 metadata:
   name: cleanup
 spec:
+  description: Run unit tests with nose
   workspaces:
     - name: source
   steps:
